@@ -318,6 +318,7 @@ nav a:hover {
   text-align: center;
   font-size: 2rem;
   padding: 5rem;
+  background-color: rgba(128, 128, 128, 0.529);
 }
 
 .gallery {
