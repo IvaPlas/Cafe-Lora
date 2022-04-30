@@ -313,3 +313,15 @@ nav a:hover {
     display: none;
   }
 }
+
+.popis {
+  text-align: center;
+  font-size: 2rem;
+  padding: 5rem;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
