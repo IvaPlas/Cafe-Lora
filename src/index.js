@@ -33,3 +33,28 @@ const zrusit = () => {
   }
 };
 orderButtonElm.addEventListener('click', zrusit);
+
+const cappuccino = [
+  {
+    color: '#feeeca',
+    label: 'mléčná pěna',
+  },
+
+  {
+    color: '#fed7b0',
+    label: 'teplé mléko',
+  },
+
+  {
+    color: '#613916',
+    label: 'espresso',
+  },
+];
+
+import { Layer } from './Layer/index.js';
+
+const drinkElm = document.querySelector('.drink__info');
+for (let i = 0; i < cappuccino.length; i++) {
+  console.log(cappuccino[i]);
+  drinkElm.innerHTML += Layer(cappuccino[i]);
+}
